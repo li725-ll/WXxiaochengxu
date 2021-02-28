@@ -1,0 +1,30 @@
+<!--pages/musicplay/musicplay.wxml-->
+<view class="main">
+    <image class="{{pause?'audio_post':'audio_post_active'}}"src='{{musicimage}}' animation="{{animation}}"></image>
+    <view>
+      <text>{{musicname}}</text>
+    </view>
+    <view>
+      <text>{{author}}</text>
+    </view>
+    <view class='audio_progress'>
+      <slider block-size='12' value='{{sliderValue}}'bindchange="change" max="{{musiclength}}"></slider>
+      <view class="value">{{musicm}}:{{musics}}</view>
+    </view>
+  <view class="anjian">
+    <navigator url="/pages/list/list">
+     <image src="/image/list.jpg" class="list"></image>
+    </navigator>
+    <image class="img" src="/image/before.jpg" bindtap="before"></image>
+    <view class="mainimg">
+     <cover-view wx:if='{{pause}}'bindtap="play">
+       <cover-image src="/image/pause.jpg"></cover-image>
+      </cover-view>
+     <cover-view wx:else='{{play}}'bindtap="pause">
+      <cover-image src="/image/play.jpg"></cover-image>
+     </cover-view>
+    </view>
+    <image class="img" src="/image/after.jpg" bindtap="after"></image>
+    <text class="text">　　</text>  
+  </view>
+</view>

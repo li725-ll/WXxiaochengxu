@@ -1,0 +1,106 @@
+/* pages/musicplay/musicplay.wxss */
+page{
+  height: 100%;
+}
+.main{
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+text{
+  color: white;
+}
+.anjian{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainimg{
+  width: 150rpx;
+  height: 150rpx;
+}
+.list{
+  width: 100rpx;
+  height: 100rpx;
+}
+.img{
+  width: 100rpx;
+  height: 100rpx;
+}
+audio{
+  margin-top: 3rpx;
+  border: 2rpx solid black;
+}
+button{
+  margin-bottom: 3rpx;
+}
+.item {
+  width: 100%;
+  padding-bottom: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.value{
+  color: #fff;
+}
+ 
+.item text {
+  font-size: medium;
+}
+.audio_progress{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+ 
+.audio_progress slider{
+  width: 80%;
+}
+ 
+.audio_progress view{
+  padding: 18rpx;
+}
+ 
+.audio_post{
+  width: 400rpx;
+  height: 400rpx;
+  margin: 100rpx auto;
+  border-radius: 50%;
+}
+.audio_post_active{
+  width: 400rpx;
+  height: 400rpx;
+  margin: 100rpx auto;
+  border-radius: 50%;
+  animation: box-ani 10s  infinite linear;
+}
+ 
+/* 旋转的样式 */
+.music_on{
+  animation: audio-rotate 8s linear infinite;
+}
+ 
+.audio_control{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+ 
+}
+ 
+.audio_control button{
+  width:200rpx;
+  height:80rpx; 
+  line-height:80rpx;
+}
+ 
+@keyframes box-ani {
+  from {transform: rotate(0)}
+  to {transform: rotate(360deg)}
+}
