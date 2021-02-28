@@ -1,0 +1,19 @@
+<!--pages/my/my.wxml-->
+<!-- 授权部分 -->
+<view class="main">
+  <view class="myImage">
+    <image src="{{imagePath}}"></image>
+  </view>
+  <view class="myName">{{userName}}</view>
+  <view class="shouquan">
+    <button wx:if="{{flag}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" type="primary" size="mini">授权登录</button>
+  </view>
+</view>
+  <!--列表菜单部分  -->
+<view>
+  <view wx:for="{{menu}}" wx:key="key" class="list">
+    <mp-cells >
+      <mp-cell ext-class="list" link hover value="{{item}}"></mp-cell>
+    </mp-cells>
+  </view>
+</view>
