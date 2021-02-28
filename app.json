@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/musicplay/musicplay",
+    "pages/shousuo/shousuo",
+    "pages/list/list",
+    "pages/my/my"
+  ],
+  "requiredBackgroundModes":["audio"],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "音乐播放器",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/musicplay/musicplay",
+      "text": "首页",
+      "iconPath": "image/1.jpg",
+      "selectedIconPath": "image/0.jpg"
+    },
+    {
+      "pagePath": "pages/shousuo/shousuo",
+      "text": "搜索",
+      "iconPath": "image/搜索1.jpg",
+      "selectedIconPath": "image/搜索.jpg"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "image/my.jpg",
+      "selectedIconPath": "image/my1.jpg"
+    }
+  ]
+  },
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
