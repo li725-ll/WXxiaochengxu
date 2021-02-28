@@ -1,0 +1,7 @@
+<!--pages/list/list.wxml-->
+<view class="main">
+  <navigator wx:for="{{music}}" class="list">
+    <text class="name">{{item.musicname}}</text>
+    <text class="author">{{item.author}}</text>
+  </navigator>
+</view>

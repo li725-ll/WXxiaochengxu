@@ -1,0 +1,11 @@
+.list{
+  background-color: #ddd;
+  border-bottom: 1rpx solid black;
+  line-height: 60rpx;
+}
+navigator{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+}
