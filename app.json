@@ -16,14 +16,14 @@
     "list": [{
       "pagePath": "pages/musicplay/musicplay",
       "text": "首页",
-      "iconPath": "image/1.jpg",
-      "selectedIconPath": "image/0.jpg"
+      "iconPath": "image/index.jpg",
+      "selectedIconPath": "image/index1.jpg"
     },
     {
       "pagePath": "pages/shousuo/shousuo",
       "text": "搜索",
-      "iconPath": "image/搜索1.jpg",
-      "selectedIconPath": "image/搜索.jpg"
+      "iconPath": "image/search1.jpg",
+      "selectedIconPath": "image/search.jpg"
     },
     {
       "pagePath": "pages/my/my",
