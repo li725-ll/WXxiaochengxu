@@ -13,18 +13,18 @@
     </view>
   <view class="anjian">
     <navigator url="/pages/list/list">
-     <image src="/image/list.jpg" class="list"></image>
+     <image src="/images/list.jpg" class="list"></image>
     </navigator>
-    <image class="img" src="/image/before.jpg" bindtap="before"></image>
+    <image class="img" src="/images/before.jpg" bindtap="before"></image>
     <view class="mainimg">
      <cover-view wx:if='{{pause}}'bindtap="play">
-       <cover-image src="/image/pause.jpg"></cover-image>
+       <cover-image src="/images/pause.jpg"></cover-image>
       </cover-view>
      <cover-view wx:else='{{play}}'bindtap="pause">
-      <cover-image src="/image/play.jpg"></cover-image>
+      <cover-image src="/images/play.jpg"></cover-image>
      </cover-view>
     </view>
-    <image class="img" src="/image/after.jpg" bindtap="after"></image>
+    <image class="img" src="/images/after.jpg" bindtap="after"></image>
     <text class="text">　　</text>  
   </view>
 </view>
