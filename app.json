@@ -16,20 +16,20 @@
     "list": [{
       "pagePath": "pages/musicplay/musicplay",
       "text": "首页",
-      "iconPath": "image/index.jpg",
-      "selectedIconPath": "image/index1.jpg"
+      "iconPath": "images/index1.jpg",
+      "selectedIconPath": "images/index.jpg"
     },
     {
-      "pagePath": "pages/shousuo/shousuo",
+      "pagePath": "pages/search/search",
       "text": "搜索",
-      "iconPath": "image/search1.jpg",
-      "selectedIconPath": "image/search.jpg"
+      "iconPath": "images/search1.jpg",
+      "selectedIconPath": "images/search.jpg"
     },
     {
       "pagePath": "pages/my/my",
       "text": "我的",
-      "iconPath": "image/my.jpg",
-      "selectedIconPath": "image/my1.jpg"
+      "iconPath": "images/my.jpg",
+      "selectedIconPath": "images/my1.jpg"
     }
   ]
   },
